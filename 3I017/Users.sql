@@ -10,3 +10,4 @@ CREATE TABLE `vene`.`DB_friends_cai_moukouri` ( `id1` INT NOT NULL , `id2` INT N
 FOREIGN Key (`id2`) REFERENCES `DB_users_cai_moukouri` (`id`), PRIMARY KEY (`id1`, `id2`)) ENGINE = InnoDB;
 
 INSERT INTO `DB_friends_cai_moukouri` (`id1`, `id2`, `date`, `nb_ami_commun`) VALUES ('1', '2', CURRENT_DATE(), '3'), ('2', '1', '2010-02-11', '3');
+
