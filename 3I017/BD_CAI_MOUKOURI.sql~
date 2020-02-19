@@ -1,0 +1,7 @@
+CREATE TABLE USER(
+login Varchar(32) unique
+password BLOB
+prenom Varchar(255)
+nom Varchar(255)
+id integer Primary key AUTO_INCREMENT
+)
